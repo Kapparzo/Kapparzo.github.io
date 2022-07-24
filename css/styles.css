@@ -27,7 +27,10 @@ h3 {
 
 a {
   font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
   color: #11999E;
+  display: block;
+  text-decoration:none;
 }
 
 hr {
@@ -59,9 +62,14 @@ button {
 
 button:hover {
   background-color: #064420;
+  color: #F7EDDB;
+  font-family: 'Montserrat', sans-serif;
   transition: background-color .5s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /**********************************CLASS TAG**********************************/
 .top-container {
   background-color: #CCD6A6;
@@ -82,6 +90,42 @@ button:hover {
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
+}
+
+.flags {
+  margin-top: 0;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+  color: #064420;
+}
+
+.backBtn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: Transparent;
+  width: 20em;
+  height: 5ex;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: firebrick;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.backBtn:hover {
+  background-color: #064420;
+  color: #F7EDDB;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color .5s;
+}
+
+.Btn:hover {
+  background-color: #064420;
+  color: #F7EDDB;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color .5s;
 }
 
 /*******************************CLASS TAG IMAGES*******************************/
@@ -110,6 +154,10 @@ button:hover {
 
 .pc-man {
   height: 200px;
+}
+
+.photography {
+  height: 150px;
 }
 
 .contact-img {
