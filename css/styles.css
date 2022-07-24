@@ -29,8 +29,8 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
   color: #11999E;
-  display: block;
   text-decoration:none;
+  display: inline-block;
 }
 
 hr {
